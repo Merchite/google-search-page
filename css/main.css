@@ -8,8 +8,12 @@ body {
     width: 100%;
 }
 
+.wrapper .underlined {
+    border-bottom: 1px solid #ebebeb;
+}
+
 .wrapper-content {
-    max-width: 1400px;
+    max-width: 1640px;
     margin: 0 auto;
     overflow: auto;
     overflow-x: auto;
@@ -21,10 +25,16 @@ body {
     text-align: center;
 }
 
+.header {
+    display: block;
+    max-width: 100%;
+    padding: 1em 1.5em;
+}
+
 .menu {
     display: block;
-    width: 100%;
-    padding: .5em;
+    max-width: 100%;
+    padding: 0;
 }
 
 ul {
@@ -53,7 +63,7 @@ li {
 }
 
 .sign-in {
-    padding-right: 1.5em;
+    padding-right: .5em;
 }
 
 .sign-in a {
@@ -72,6 +82,11 @@ li {
     width: 272px;
     height: auto;
 }
+.small-googleLogo {
+    margin-top: 1em;
+    width: 92px;
+    height: auto;
+}
 
 .small-padding {
     padding-bottom: 1.3em !important;
@@ -85,6 +100,17 @@ li {
     border-radius: 5em;
     border: 1px solid #DDD;
     margin: 0 auto;
+}
+
+.search-big{
+    width: 650px;
+    border-radius: 5em;
+    border: 1px solid #DDD;
+    margin: auto 2em;
+}
+
+.search-big .searchBar {
+    margin-left: 2em !important;
 }
 
 
