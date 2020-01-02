@@ -8,7 +8,7 @@ body {
     width: 100%;
 }
 
-.wrapper .underlined {
+.wrapper.underlined {
     border-bottom: 1px solid #ebebeb;
 }
 
@@ -52,14 +52,14 @@ li {
     display: inline-block;
     color: rgba(0,0,0,0.87);
     text-align: center;
-    padding: 1em;  
+    margin-right: 1.5em;
+    padding-bottom: 1.5em;
     font-size: .8em;
     text-decoration: none;
 }
 
 .menu a:hover {
-    text-decoration: underline;
-    opacity: .85;
+    border-bottom: 2px solid blue;
 }
 
 .sign-in {
@@ -185,6 +185,7 @@ button[type=submit]:hover {
 .highlight {
     color: lightskyblue;
     fill: currentColor;
+}
 
 @media only screen and (max-width: 479px) {
     .wrapper-content {
@@ -216,4 +217,22 @@ button[type=submit]:hover {
         fill: currentColor;
         background: #3b78e7;
     }
+}
+
+.total-search-results {
+    padding-top: 1em;
+    color:#70757a;
+    font-size: .8em;;
+}
+
+.search-results {
+    padding-top: 1em;
+}
+
+.search-result-ad.search-title {
+
+}
+
+.search-result-ad.search-title a {
+    color:#1a0dab;
 }
