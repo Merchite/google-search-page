@@ -1,0 +1,193 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.wrapper {
+    float: left;
+    width: 100%;
+}
+
+.wrapper-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: auto;
+    overflow-x: auto;
+}
+
+.web-content {
+    margin: 0 auto;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.menu {
+    display: block;
+    width: 100%;
+    padding: .5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+.menu a {
+    display: inline-block;
+    color: rgba(0,0,0,0.87);
+    text-align: center;
+    padding: 1em;  
+    font-size: .8em;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    opacity: .85;
+}
+
+.sign-in {
+    padding-right: 1.5em;
+}
+
+.sign-in a {
+    border: 1px solid #4285f4;
+    background: #4285f4;
+    font-weight: bold;
+    outline: none;
+    color: #FFF;
+    padding: .5em 1em;
+    border-radius: .2em;
+    margin: .5em;
+}
+
+.googleLogo {
+    margin-top: 9em;
+    width: 272px;
+    height: auto;
+}
+
+.small-padding {
+    padding-bottom: 1.3em !important;
+}
+
+.no-padding {
+    padding-bottom: 0 !important;
+}
+.search {
+    width: 582px;
+    border-radius: 5em;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
+
+
+.search:before {
+    opacity: 0;
+    box-shadow: 1em 4em 12em rgba(0,0,0,.35);
+}
+
+.search:hover:before {
+    box-shadow: 1em 4em 12em rgba(0,0,0,.35);
+}
+
+.icon {
+    display: inline-block;
+    padding: .9em;
+    color: #9AA0A6;
+    fill: currentColor;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+input[type=search] {
+    width: 80%;
+    background: #FFF;
+    margin: 0;
+    border: 0px !important;
+    height: 4em;
+}
+
+button[type=submit] {
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: .5em 1em;
+    margin: 1em .5em;
+    border-radius: .5em;
+    color: rgb(90,90,90)
+}
+
+button[type=submit]:hover {
+    border: 1px solid #DDD !important;
+    color: #000;
+
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    background:#f2f2f2;
+    padding: .5em;
+}
+
+.footer a {
+    color: #5f6368;
+    font-size: .8em;
+    padding: 1em;
+    
+}
+
+.left {
+    float: left;    
+}
+
+.right {
+    float: right;
+}
+
+.highlight {
+    color: lightskyblue;
+    fill: currentColor;
+
+@media only screen and (max-width: 479px) {
+    .wrapper-content {
+        width: 100%;
+        margin: 0 auto;
+        overflow: auto;
+        overflow-x: auto;
+    }
+
+    .mobhide {
+        display: none;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .search {
+        width: 100%;
+        height: auto;
+    }
+
+    .icon {
+        float: right;
+        display: inline-block;
+        padding: 1em;
+        color: #FFF;
+        fill: currentColor;
+        background: #3b78e7;
+    }
+}
